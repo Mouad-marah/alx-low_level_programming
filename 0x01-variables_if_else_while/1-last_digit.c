@@ -16,7 +16,7 @@ int main(void)
 int n, last_ligit;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-int last_ligit = n % 10;
+last_ligit = n % 10;
 
 if (last_ligit > 5)
 printf("%i and is greater than 5\n", last_ligit);
