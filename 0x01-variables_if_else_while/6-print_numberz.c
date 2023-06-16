@@ -5,7 +5,8 @@
  *
  * Print number by using putchar function
  *
- * Return: 0 SUCCESS*/
+ * Return: 0 SUCCESS
+*/
 
 int main(void)
 {
@@ -13,8 +14,8 @@ int i = 0;
 
 while (i < 10)
 {
-	putchar('0' + i);
-	i++;
+putchar('0' + i);
+i++;
 }
 putchar('\n');
 return (0);
