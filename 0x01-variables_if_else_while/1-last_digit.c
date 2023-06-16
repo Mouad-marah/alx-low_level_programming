@@ -19,7 +19,7 @@ n = rand() - RAND_MAX / 2;
 last_ligit = n % 10;
 
 if (last_ligit > 5)
-printf("Last digit of %i and %i is greater than 5\n", n, last_ligit);
+printf("Last digit of %i is %i and is greater than 5\n", n, last_ligit);
 
 else if (last_ligit == 0)
 printf("Last digit of %i is %i and is 0\n", n, last_ligit);
