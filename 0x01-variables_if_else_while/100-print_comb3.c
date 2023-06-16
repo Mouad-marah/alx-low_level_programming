@@ -11,12 +11,11 @@
 int main(void)
 {
 	int i , res , mod;
-	res = i / 10;
-	mod = i % 10;
 
 for (i = 1; i < 90; i++)
 {
-
+	res = i / 10;
+	mod = i % 10;
 	if (res < mod)
 	{
 		putchar(res + '0');
