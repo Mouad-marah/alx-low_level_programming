@@ -19,13 +19,13 @@ n = rand() - RAND_MAX / 2;
 last_ligit = n % 10;
 
 if (last_ligit > 5)
-printf("%i and is greater than 5\n", last_ligit);
+printf("last digit of %i and %i is greater than 5\n", n, last_ligit);
 
 else if (last_ligit == 0)
-printf("%i and is 0\n", last_ligit);
+printf("last digit of %i is %i and is 0\n", n, last_ligit);
 
 else if (last_ligit < 6 && last_ligit !=  0)
-printf("%i and is less than 6 and not 0\n", last_ligit);
+printf("last digit of %i is %i and is less than 6 and not 0\n", n, last_ligit);
 
 return (0);
 }
