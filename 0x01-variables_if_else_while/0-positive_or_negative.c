@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <time.h>
-#include <
 
 /**
  * main - Entry point
