@@ -11,15 +11,15 @@
 int main(void)
 {
 	int i;
-	int div = i / 10;
+	int res = i / 10;
 	int mod = i % 10;
 
 for (i = 1; i < 90; i++)
 {
 
-	if (div < mod)
+	if (res < mod)
 	{
-		putchar(div + '0');
+		putchar(res + '0');
 		putchar(mod + '0');
 	}
 	if (i < 89)
