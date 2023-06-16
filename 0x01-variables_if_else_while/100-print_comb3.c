@@ -11,8 +11,8 @@
 int main(void)
 {
 	int i , res , mod;
-	int res = i / 10;
-	int mod = i % 10;
+	res = i / 10;
+	mod = i % 10;
 
 for (i = 1; i < 90; i++)
 {
