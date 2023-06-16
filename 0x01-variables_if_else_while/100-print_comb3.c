@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	int i;
+	int i , res , mod;
 	int res = i / 10;
 	int mod = i % 10;
 
