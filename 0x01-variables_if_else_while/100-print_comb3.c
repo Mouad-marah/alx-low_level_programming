@@ -10,16 +10,14 @@
 
 int main(void)
 {
-	int i, res, mod;
+	int i;
 
-for (i = 1; i < 90; i++)
+for (i = 1; i < 100; i++)
 {
-res = i / 10;
-mod = i % 10;
-	if (res < mod)
+	if (i / 10 < i % 10)
 	{
-		putchar(res + '0');
-		putchar(mod + '0');
+		putchar((i / 10) + '0');
+		putchar((i % 10) + '0');
 	}
 	if (i < 89)
 	{
@@ -27,5 +25,7 @@ mod = i % 10;
 		putchar(' ');
 	}
 }
+	putchar('\n');
+
 return (0);
 }
