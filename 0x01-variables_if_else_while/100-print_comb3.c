@@ -20,7 +20,6 @@ Mod = i % 10;
 	{
 		putchar(Div + '0');
 		putchar(Mod + '0');
-	
 	if (i < 89)
 	{
 		putchar(',');
@@ -28,7 +27,6 @@ Mod = i % 10;
 	}
 }
 	putchar('\n');
-
 return (0);
 }
 }
