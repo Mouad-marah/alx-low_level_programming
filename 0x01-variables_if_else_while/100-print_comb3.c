@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Ebtry point
+ * main - Entry point
  *
  * Discription: combination of the two digits
  *
@@ -10,15 +10,17 @@
 
 int main(void)
 {
-	int i;
+	int i, Div, Mod;
 
 for (i = 1; i < 100; i++)
 {
-	if (i / 10 < i % 10)
+Div = i / 10;
+Mod = i % 10;
+	if (Div < Mod)
 	{
-		putchar((i / 10) + '0');
-		putchar((i % 10) + '0');
-	}
+		putchar(Div + '0');
+		putchar(Mod + '0');
+	
 	if (i < 89)
 	{
 		putchar(',');
@@ -28,4 +30,5 @@ for (i = 1; i < 100; i++)
 	putchar('\n');
 
 return (0);
+}
 }
