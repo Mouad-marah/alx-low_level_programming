@@ -15,7 +15,7 @@ int main(void)
 for (i = 1; i < 1000; i++)
 {
 Div = i / 100;
-DivMod = (i / 10) % 10
+DivMod = (i / 10) % 10;
 Mod = i % 10;
 	if (Div < DivMod && DivMod < Mod)
 	{
