@@ -5,7 +5,7 @@
  *
  *@c: charachter
  *
- * Return: Always 0 or 1 
+ * Return: Always 0 or 1
  */
 
 int _isalpha(int c)
