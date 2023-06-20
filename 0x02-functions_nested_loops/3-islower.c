@@ -3,6 +3,7 @@
 /**
  * _islower - check the declaration founction.
  *
+ *@c: is a character
  *
  * Return: valus 0 or 1 .
  */
