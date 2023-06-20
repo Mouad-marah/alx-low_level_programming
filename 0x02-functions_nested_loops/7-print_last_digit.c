@@ -13,6 +13,6 @@ int print_last_digit(int n)
 	int ligit;
 	ligit = n % 10;
 
-	_putchar(ligit + 'n');
+	_putchar(ligit + '0');
 	return (ligit);
 }
