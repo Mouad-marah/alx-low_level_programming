@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * print_alphabet - function declaration
  *
  * Description: print alphabets
  *
@@ -11,6 +11,7 @@
 void print_alphabet(void)
 {
 	char letter = 'a';
+
 	while (letter <= 'z')
 	{
 		_putchar(letter);
