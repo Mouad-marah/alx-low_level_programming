@@ -22,7 +22,7 @@ void jack_bauer(void)
 			sec02 = i / 10;
 			sec01 = i % 10;
 
-			if (hour < sec02 || (hour == sec02 && sec02 > min))
+			if (hour < sec02 || (hour == sec02 && sec02 >= min))
 			{
 				_putchar(hour + '0');
 				_putchar(min + '0');
