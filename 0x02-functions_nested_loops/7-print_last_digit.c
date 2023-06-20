@@ -11,8 +11,8 @@
 int print_last_digit(int n)
 {
 	int ligit;
-	ligit = n % 10;
 
+	ligit = n % 10;
 	if (n <= 9)
 	{
 		ligit = -1 * ligit;
@@ -21,6 +21,7 @@ int print_last_digit(int n)
 	}
 	else
 	{
+		ligit = n % 10;
 		_putchar((ligit) + '0');
 		return (ligit);
 	}
