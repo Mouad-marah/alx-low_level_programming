@@ -21,6 +21,7 @@ int print_last_digit(int n)
 	}
 	else
 	{
+		ligit = n % 10;
 		_putchar(ligit + '0');
 		return (ligit);
 	}
