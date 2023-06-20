@@ -3,6 +3,7 @@
 /**
  * print_sign - check the function code.
  *
+ * @n: integer to check
  * Return: 0 or 1
  */
 
