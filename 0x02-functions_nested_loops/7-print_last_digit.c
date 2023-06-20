@@ -13,7 +13,7 @@ int print_last_digit(int n)
 	int ligit;
 	ligit = n % 10;
 
-	if (ligit <= 9)
+	if (n <= 9)
 	{
 		ligit = -1 * ligit;
 		_putchar((ligit) + '0');
