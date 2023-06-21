@@ -8,20 +8,27 @@
  * Return: always 0 SUCCESS
 */
 
-int main()
+int main(void)
 {
-	int i;
-	long int pre= 1;
-	long int curr=2;
+	int i = 0;
+	long int pre = 1;
+	long int curr = 2;
 	long int next;
 
-	printf("%ld, %ld, ", pre, curr);
 		while (i < 50)
 		{
 			next = pre + curr;
-			curr = pre;
-			pre = next;
-			printf("%ld\n",next);
+			pre = curr;
+			curr = next;
+
+			printf("%ld", next);
+
+			if (i <	48)
+			{
+				printf(", ");
+			}
+				i++;
 		}
-	return 0;
+	prnitf("\n");
+	return (0);
 }
