@@ -23,7 +23,7 @@ int main(void)
 
 			printf("%ld", next);
 
-			if (i <	48)
+			if (i <= 48)
 			{
 				printf(", ");
 			}
