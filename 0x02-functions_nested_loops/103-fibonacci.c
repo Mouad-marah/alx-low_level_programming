@@ -29,6 +29,6 @@ int main(void)
 			}
 				i++;
 		}
-	prnitf("\n");
+	printf("\n");
 	return (0);
 }
