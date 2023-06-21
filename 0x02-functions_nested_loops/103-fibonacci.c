@@ -15,7 +15,7 @@ int main()
 	long int curr=2;
 	long int next;
 
-	printf("%ld, %ld, ", pre, curr)
+	printf("%ld, %ld, ", pre, curr);
 		while(i < 50)
 		{
 			next = pre + curr;
