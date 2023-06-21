@@ -11,24 +11,21 @@
 int main(void)
 {
 	int i = 0;
-	long int pre = 0;
-	long int curr = 1;
-	long int next;
+	int pre = 0;
+	int curr = 1;
+	int next = 0;
 
-		while (i < 50)
+		while (i < 4000000)
 		{
 			next = pre + curr;
 			pre = curr;
 			curr = next;
 
-			printf("%ld", next);
-
-			if (i < 49)
+			if ((next % 2) == 0)
 			{
-				printf(", ");
+				i = i + next;
 			}
-				i++;
 		}
-	printf("\n");
+	printf("%i\n", i);
 	return (0);
 }
