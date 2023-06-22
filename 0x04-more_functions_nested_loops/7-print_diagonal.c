@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *  - check the code.
+ * print_line  - check the code.
  *
  *@n: variable
  *
@@ -14,7 +14,7 @@ void print_line(int n)
 
 	for (c = 0; c < n; c++)
 	{
-		for (i = 0; i < n; i++)
+		for (i = 0; i < c; i++)
 		{
 				_putchar(32);
 		}
