@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *  - check the code.
+ * mul - check the code.
  *
  *@a: variable
  *
