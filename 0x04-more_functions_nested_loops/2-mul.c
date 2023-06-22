@@ -3,7 +3,9 @@
 /**
  *  - check the code.
  *
- *@c: variable
+ *@a: variable
+ *
+ *@b: variable
  *
  * Return: Always a * b.
  */
