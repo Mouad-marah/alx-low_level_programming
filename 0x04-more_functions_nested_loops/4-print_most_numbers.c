@@ -1,18 +1,21 @@
 #include "main.h"
 
 /**
- * print_numbers - check the code.
+ * print_most_numbers - check the code.
  *
  * Return: Always
  */
 
-void print_numbers(void)
+void print_most_numbers(void)
 {
-	int i ;
+    int i ;
 
 	for (i = 0; i <= 9 ; i++)
 	{
-		_putchar('0' + i);
-	}
+		if (i != 2 && i != 4)
+		{
+			_putchar('0' + i);
+		}
 	_putchar('\n');
+	}
 }
