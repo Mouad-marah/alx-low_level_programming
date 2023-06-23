@@ -11,20 +11,25 @@
 
 void print_number(int n)
 {
-	unsined int integer = n;
+
+	unsigned int integer = n;
+
+	if  (n < 0)
+	{
+		integer = -n;
+		_putchar('-');
+	}
+
+	else
+	{
+		integer = n;
+	}
 
 	if (integer / 10)
 	{
-		print_number(integer / 10)
+		print_number(integer / 10);
 	}
-	else
-	{
-		_putchar(integer % 10 + '0');
-	}
-	if (integer % 10)
-	{
-		integer = -n;
-		_putchar(45);
-	}
+
+	_putchar((integer % 10) + '0');
 }
 
