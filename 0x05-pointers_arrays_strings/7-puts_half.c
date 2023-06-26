@@ -1,6 +1,10 @@
 #include <stdio.h>
 
-/***/
+/**
+ * puts_half - function declaration
+ *
+ * @str: arrgument of the function
+*/
 
 void puts_half(char *str)
 {
