@@ -4,19 +4,23 @@
  *
  * @s: arrgument of the function
 */
-
 void rev_string(char *s)
 {
-	int length, mid, i, temp, end;
+	int size = 0;
+	int start = 0;
+	int i;
 
-	length = sizeof(s) / sizeof(s[0]);
-	end = length;
-	mid = length / 2;
-
-	for (i = 0; i < mid; i++)
+	while (s[size] != '\0')
 	{
-		temp = s[i];
-		s[i] = s[end - i];
-		s[end - i] = temp;
+		size++;
 	}
+
+		while (start < size)
+		{
+			char temp = s[start];
+			s[start] = s[size - 1];
+			s[size - 1] = temp;
+			start++;
+			size--;
+		}
 }
