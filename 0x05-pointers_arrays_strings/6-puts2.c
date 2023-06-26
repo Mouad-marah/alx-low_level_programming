@@ -10,9 +10,12 @@ void puts2(char *str)
 {
 	int a = 0;
 
-	while ((*str + a) != '\0')
+	while (*(str + a) != '\0')
 	{
-		putchar(*str + a);
+		if (i % 2 == 0)
+		{
+		putchar((*str + a));
+		}
 		a++;
 	}
 
