@@ -1,7 +1,9 @@
 /**
  * _strlen - function declaration
  *
- * @s: variable 
+ * @s: variable
+ *
+ * Return: value of length
 */
 
 int _strlen(char *s)
