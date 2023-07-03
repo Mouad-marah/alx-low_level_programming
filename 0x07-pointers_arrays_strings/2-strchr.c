@@ -6,7 +6,7 @@
  * @s: pointer
  * @c: char variable
  *
- * Return: s value
+ * Return: s value SUCCESS
 */
 
 char *_strchr(char *s, char c)
