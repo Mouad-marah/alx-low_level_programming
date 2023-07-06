@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * check - checks the function
+ * find - checks the function
  *
  * @x: argument
  * @y: argument
