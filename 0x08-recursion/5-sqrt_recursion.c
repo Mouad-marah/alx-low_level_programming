@@ -3,8 +3,8 @@
 /**
  * check - checks the function
  *
- * @a:argument
- * @b:argument
+ * @x: argument
+ * @y: argument
  *
  * Return: value of square
 */
