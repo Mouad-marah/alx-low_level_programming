@@ -14,7 +14,6 @@ int main(int argc, char *argv[])
 	int i, result;
 
 	result = 0;
-
 	if (argc <= 2)
 		printf("0\n");
 
@@ -25,7 +24,7 @@ int main(int argc, char *argv[])
 			if (*argv[i] < 48 || *argv[i] > 57)
 			{
 				printf("Error\n");
-                		return (1);
+				return (1);
 			}
 			else
 			{
@@ -33,7 +32,6 @@ int main(int argc, char *argv[])
 			}
 		}
 		printf("%i\n", result);
-		
 	}
 	return (0);
 }
