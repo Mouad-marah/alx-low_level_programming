@@ -10,10 +10,11 @@
 */
 int main(int argc, char *argv[])
 {
+	argv++;
+
 	if (argc >= 0)
 	{
 		printf("%i\n", argc--);
-		argv++;
 	}
 	return (0);
 }
