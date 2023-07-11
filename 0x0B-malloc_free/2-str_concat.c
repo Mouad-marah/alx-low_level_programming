@@ -22,7 +22,7 @@ char *str_concat(char *s1, char *s2)
 	if (!s2)
 		s2 = "";
 
-	leng = strlen(s1) + strlen(s2) + 1;
+	len = strlen(s1) + strlen(s2) + 1;
 	nstr = (char *) malloc(sizeof(char) * len);
 
 	if (nstr == NULL)
@@ -30,7 +30,7 @@ char *str_concat(char *s1, char *s2)
 		return (NULL);
 	}
 
-	for (i = 0; i < leng; i++)
+	for (i = 0; i < len; i++)
 	{
 		if (i < (int)strlen(s1))
 		{
