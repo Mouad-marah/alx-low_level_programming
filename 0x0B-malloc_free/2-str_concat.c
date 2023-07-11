@@ -14,7 +14,7 @@
 char *str_concat(char *s1, char *s2)
 {
 	int i;
-	int leng;
+	int len;
 	char *nstr;
 
 	if (!s1)
