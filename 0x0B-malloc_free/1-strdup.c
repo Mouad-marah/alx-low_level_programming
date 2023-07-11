@@ -10,19 +10,23 @@
 */
 
 char *_strdup(char *str)
+
 {
-	int i = 0;
+	int i;
 	char *a;
+	int len;
 
-	a = malloc(sizeof(char) * 6);
+	len = sizeof(str) / sizeof(str[0]);
+	a = malloc(sizeof(char) * len);
 
-	if (str == NULL)
+	if (str == 0 || a == 0)
 		return (NULL);
-	while (i < 7)
+	while (i < len)
 	{
 		a[i] = *str;
-		i++;
 		str++;
+		i++;
 	}
 	return (a);
 }
+
