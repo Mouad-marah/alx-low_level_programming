@@ -2,13 +2,22 @@
 #include <stdlib.h>
 #include <string.h>
 
-/***/
+/**
+ * *string_nconcat - function declaration
+ *
+ * @s1: string 1
+ * @s2: string 2
+ * @n: number of bytes
+ *
+ * Return: a
+*/
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	unsigned int i, j;
 	char *a;
 	unsigned int len = strlen(s1);
+	unsigned int len2 = strlen(s2);
 
 	if (s1 == NULL)
 		s1 = "";
@@ -19,6 +28,9 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	if (a == NULL)
 		return (NULL);
+	if (n >= len2 + 1)
+		n = len2 + 1;
+
 	for (i = 0; i < len; i++)
 	{
 		a[i] = s1[i];
