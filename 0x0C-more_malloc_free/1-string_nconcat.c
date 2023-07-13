@@ -32,19 +32,10 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		n = len2;
 	}
-	else
-	{
-		for (i = 0; i < len; i++)
-		{
-			a[i] = s1[i];
-		}
-		j = 0;
-		while (i < len + n)
-		{
-			a[i] = s2[j];
-			j++;
-			i++;
-		}
-	a[i] = '\0';
+	if (a != NULL)
+        {
+		strcpy(a, s1);
+		strncat(a, s2, n);
+	}
 	return (a);
 }
