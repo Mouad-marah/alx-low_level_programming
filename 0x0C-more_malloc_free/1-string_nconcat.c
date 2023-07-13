@@ -22,15 +22,13 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		s1 = "";
 	if (s2 == NULL)
 		s2 = "";
-
-	a = malloc(len + n + 1);
-
 	if (n >= len2)
 	{
 		n = len2;
 	}
+	a = malloc(len + n + 1);
 	if (a != NULL)
-        {
+	{
 		strcpy(a, s1);
 		strncat(a, s2, n);
 	}
