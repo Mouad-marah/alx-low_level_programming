@@ -20,7 +20,7 @@ struct dog
  * doggy - struct
 */
 
-typedef struct dog doggy;
-doggy *doggy_info(char *name, float age, char *owner);
+typedef struct dog dog_y;
+dog_y *doggy_info(char *name, float age, char *owner);
 
 #endif
