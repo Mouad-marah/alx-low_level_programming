@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
 		return (99);
 	}
 	/*if the user tries to divide (/ or %) by 0, print Error, return 100*/
-	if ((argv[2] == '/' || argv[2] == '*') && atoi(argv[3]) == 0)
+	if ((*argv[2] == '/' || *argv[2] == '%') && atoi(argv[3]) == 0)
 	{
 		printf("Error\n");
 		return (100);
