@@ -6,7 +6,7 @@
 /**
  * print_numbers - variadic function declaration
  *
- * @seprator: string argument
+ * @separator: string argument
  * @n: number of arguments
 */
 void print_numbers(const char *separator, const unsigned int n, ...)
