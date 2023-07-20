@@ -10,7 +10,7 @@
  *
  * Return: values of condition
 */
-int main(int argc, char *argv)
+int main(int argc, char *argv[])
 {
 	int (*op)(int, int);
 	int res;
@@ -21,6 +21,8 @@ int main(int argc, char *argv)
 		printf("Error\n");
 		return (98);
 	}
+		op = get_op_func(argv[2]);
+
 	/*if the operator is none of the above, print Error, return 99*/
 	if (!op)
 	{
@@ -28,7 +30,7 @@ int main(int argc, char *argv)
 		return (99);
 	}
 	/*if the user tries to divide (/ or %) by 0, print Error, return 100*/
-	if ((argv[2] == '/' || argv[2] == '*') && argv[3] == 0)
+	if ((argv[2] == '/' || argv[2] == '*') && atoi(argv[3]) == 0)
 	{
 		printf("Error\n");
 		return (100);
