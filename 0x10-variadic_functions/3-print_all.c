@@ -35,9 +35,10 @@ void print_all(const char * const format, ...)
 				if (str != 0)
 					str = "(nil)";
 				printf("%s", str);
+				break;
 			default:
 				j = 0;
-				brea;
+				break;
 		}
 		if (format[i] && j)
 			printf(", ");
