@@ -1,4 +1,5 @@
 #include "lists.h"
+#include <stdio.h>
 
 /**
  * print_listint - function declaration
@@ -9,14 +10,13 @@
 */
 size_t print_listint(const listint_t *h)
 {
-	const listint_t *node = h
 	size_t counter = 0;
 
-	while (node)
+	while (h)
 	{
-		printf("%i\n", node->n);
+		printf("%i\n", h->n);
 		counter++;
-		node = node->next;
+		h = h->next;
 	}
-	return (counter)
+	return (counter);
 }
