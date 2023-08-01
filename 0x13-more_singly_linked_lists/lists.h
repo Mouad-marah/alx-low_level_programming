@@ -1,5 +1,5 @@
-#ifdef LIST
-#define HEADER_LIST
+#ifdef LIST_H
+#define LIST_H
 
 #include <stdio.h>
 #include <stddef.h>
