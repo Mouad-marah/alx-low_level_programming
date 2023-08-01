@@ -16,7 +16,6 @@ size_t print_listint_safe(const listint_t *head)
 	ping = 0;
 	if (!head)
 		exit(98);
-
 	while (in_node)
 	{
 		printf("[%p] %i\n", in_node, in_node->n);
