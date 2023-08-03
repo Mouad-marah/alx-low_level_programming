@@ -1,6 +1,7 @@
 #include "main.h"
+
 /**
- * get_bit _ function declaration
+ * get_bit - function declaration
  *
  * @n: int argument
  * @index: index to check
