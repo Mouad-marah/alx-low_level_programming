@@ -1,5 +1,12 @@
 #include "main.h"
-/***/
+/**
+ * flip_bits - function decl
+ *
+ * @n: int arg
+ * @m: int arg
+ *
+ * Return: i SUCCESS
+*/
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
 	unsigned int i;
